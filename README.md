@@ -1,18 +1,7 @@
-# TwO-O-Player Math Game
-## Class descriptions
+# "TwO-O-Player" Math Game
+A simple arithmetic game for two players. Each player starts with 3 lives, and must answer random arithmetic questions. Answering a question wrong deducts a life, and losing all three lives ends the game.
 
-Player
-- var: lives remaining
+This repo is an exercise for Lighthouse Labs web development bootcamp for learning Ruby and basic OOP principles.
 
-Question
-- var: number_a
-- var: number_b
-- var: sum
-
-Game
-- var: array of players
-- var: current player
-
-Evaluator
-- accepts question and player number
-- gets user input
+### Running the game
+Clone the repo and run `ruby main.rb`
